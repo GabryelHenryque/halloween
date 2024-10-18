@@ -1,1 +1,2 @@
-hello hell9o
+var count = 10;
+var interval = setInterval(function())
