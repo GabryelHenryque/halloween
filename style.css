@@ -1,3 +1,21 @@
-h1{
-    ola
+body{
+ background-color: black;
+ font-family: ;
+}
+
+
+
+
+
+
+img.ghost {
+    max-width: 640px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+img.ghost {
+    max-width: 640px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
 }
