@@ -52,6 +52,7 @@ img.ghost {
     max-width: 640px;
     transform: translateY(0px);
     animation: float 5s ease-in-out infinite;
+    display: flex;
 }
 
 @keyframes float {
