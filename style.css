@@ -15,7 +15,7 @@ body{
 }
 
 .main-center{
-    display:flex
+    display:flex;
     text-align: center;
 }
 
@@ -61,6 +61,6 @@ img.ghost {
 }
 
 footer{
-    display:flex
-    justif
+    display:flex;
+    justify-content: left;
 }
