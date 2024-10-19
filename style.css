@@ -1,3 +1,45 @@
+body{
+ background-color: black;
+ font-family: "Creepster", system-ui;
+ text-align: center;
+}
+
+h3 {
+    font-family: "Creepster", system-ui;
+    color: #FFFF;
+    text-align: center;
+}
+
+h2{
+    font-family: "Creepster", system-ui;
+    color: #FF5900;
+    text-align: center;
+}
+
 h1{
-    ola
+    font-family: "Creepster", system-ui;
+    color: #FF5900;
+    text-align: center;
+}
+
+p{
+    font-family: "Creepster", system-ui;
+    color: #FFFF;
+    text-align: center;
+}
+
+img.ghost {
+    max-width: 640px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+img.ghost {
+    max-width: 640px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    
 }
