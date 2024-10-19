@@ -4,6 +4,11 @@ body{
  text-align: center;
 }
 
+.header{
+    display:flex;
+    justify-content: right;
+}
+
 h3 {
     font-family: "Creepster", system-ui;
     color: #FFFF;
