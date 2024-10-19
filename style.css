@@ -14,6 +14,10 @@ body{
     justify-content: space-between;
 }
 
+.main-center{
+    display:flex
+}
+
 h3 {
     font-family: "Creepster", system-ui;
     color: #FFFF;
@@ -25,21 +29,21 @@ h2{
     font-family: "Creepster", system-ui;
     color: #FF5900;
     text-align: center;
-    font-size: 48;
+    font-size: 50px;
 }
 
 h1{
     font-family: "Creepster", system-ui;
     color: #FF5900;
     text-align: center;
-    font-size: 100;
+    font-size: 100px;
 }
 
 p{
     font-family: "Creepster", system-ui;
     color: #FFFF;
     text-align: center;
-    font-size: 14;
+    font-size: 14px;
 }
 
 img.ghost {
@@ -55,6 +59,7 @@ img.ghost {
     display: flex;
 }
 
-@keyframes float {
-    
+footer{
+    display:flex
+    justif
 }
