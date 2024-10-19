@@ -16,6 +16,7 @@ body{
 
 .main-center{
     display:flex
+    text-align: center;
 }
 
 h3 {
