@@ -10,4 +10,4 @@ function toggleBackgroundColor() {
 }
 
 // Alternar cor a cada 1000 milissegundos (1 segundo)
-setInterval(toggleBackgroundColor, 1000);
+setInterval(toggleBackgroundColor, 100);
