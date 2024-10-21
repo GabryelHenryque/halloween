@@ -1,3 +1,4 @@
+
 function toggleBackgroundColor() {
     var bodyElement = document.getElementById("body");
     
@@ -12,7 +13,18 @@ function random(){
     return random = Math.random() * 2000 + 3000;
 }
 
-// Alternar cor a cada 1000 milissegundos (1 segundo)
-intervalo = setInterval(toggleBackgroundColor, random);
-//utilizar uma funçao random pra piscar legal
-setInterval(intervalo, random)
+
+setInterval(()=>{
+    // Alternar cor a cada 1000 milissegundos (1 segundo)
+    intervalo = setInterval(toggleBackgroundColor, random);
+        //utilizar uma funçao random pra piscar legal
+        //setInterval(intervalo, random)
+    setTimeout(()=>{
+        clearInterval(intervalo)
+        document.getElementById("body").style.backgroundColor = "black";
+    },1000*2)
+
+},1000*5)
+
+
+

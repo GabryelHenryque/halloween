@@ -20,7 +20,6 @@ body{
     text-align: center;
     align-items: center;
     flex-direction: column;
-    line-height: 30px;
 }
 
 h3 {
@@ -87,7 +86,7 @@ p{
 }
 
 .pumkin-img {
-    width: 90px;
+    width: 50px;
     text-align: center;
 }
 
