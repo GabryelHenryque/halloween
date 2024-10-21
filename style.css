@@ -23,7 +23,8 @@ h3 {
     font-family: "Creepster", system-ui;
     color: #FFFF;
     text-align: center;
-    font-size: 27;
+    font-size: 27px;
+    display: flex;
 }
 
 h2{
@@ -75,8 +76,9 @@ p{
 
 }
 
-.button{
+button{
     width: 100px;
+    height: 10px;
 }
 
 footer{
