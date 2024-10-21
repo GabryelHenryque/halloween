@@ -1,3 +1,5 @@
+/*
+
 function toggleBackgroundColor() {
     var bodyElement = document.getElementById("body");
     
@@ -13,3 +15,4 @@ function toggleBackgroundColor() {
 setInterval(toggleBackgroundColor, 100);
 //utilizar uma funçao random pra piscar legal
 
+*/

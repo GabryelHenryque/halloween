@@ -60,6 +60,13 @@ img.ghost {
     display: flex;
 }
 
+.footer-center {
+    font-family: "Creepster", system-ui;
+    color: #FFFF;
+    text-align: center;
+
+}
+
 footer{
     display:flex;
     justify-content: left;
