@@ -22,9 +22,9 @@ setInterval(()=>{
     setTimeout(()=>{
         clearInterval(intervalo)
         document.getElementById("body").style.backgroundColor = "black";
-    },1000*2)
+    },1000)
 
-},1000*5)
+},3000)
 
 
 
