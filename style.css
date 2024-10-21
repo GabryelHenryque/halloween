@@ -2,6 +2,7 @@ body{
  background-color: black;
  font-family: "Creepster", system-ui;
  text-align: center;
+ transition: background-color 0.5s ease;
 }
 
 .header{
