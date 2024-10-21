@@ -47,15 +47,16 @@ p{
     font-size: 14px;
 }
 
-img.ghost {
+img .ghost {
     max-width: 640px;
-    transform: translateY(0px);
+    transform: translateY('1000px');
     animation: float 5s ease-in-out infinite;
 }
 
+
 img.ghost {
     max-width: 640px;
-    transform: translateY(0px);
+    transform: translateY(40px);
     animation: float 5s ease-in-out infinite;
     display: flex;
 }
@@ -77,3 +78,5 @@ footer{
     display:flex;
     justify-content: left;
 }
+
+
