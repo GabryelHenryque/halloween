@@ -23,9 +23,10 @@ body{
 h3 {
     font-family: "Creepster", system-ui;
     color: #FFFF;
+    font-size: 25px;
     text-align: center;
-    font-size: 27px;
-    display: flex;
+    justify-content: center;
+    
 }
 
 h2{
