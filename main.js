@@ -1,4 +1,4 @@
-
+/*
 function toggleBackgroundColor() {
     var bodyElement = document.getElementById("body");
     
@@ -16,3 +16,4 @@ function random(){
 intervalo = setInterval(toggleBackgroundColor, random);
 //utilizar uma funçao random pra piscar legal
 setInterval(intervalo, random)
+*/
