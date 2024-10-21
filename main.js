@@ -10,9 +10,15 @@ function toggleBackgroundColor() {
         bodyElement.style.backgroundColor = "white";
     }
 }
+const intervalo = setTimeout(toggleBackgroundColor, random);
+function random(){
+    var random = Math.random() * 2000 + 100;
+    return random;
+}
+
 
 // Alternar cor a cada 1000 milissegundos (1 segundo)
-setInterval(toggleBackgroundColor, 100);
+setInterval(toggleBackgroundColor, intervalo);
 //utilizar uma funçao random pra piscar legal
 
 */
