@@ -47,18 +47,24 @@ p{
     font-size: 14px;
 }
 
-img .ghost {
-    max-width: 640px;
-    transform: translateY('1000px');
-    animation: float 5s ease-in-out infinite;
-}
 
-
-img.ghost {
-    max-width: 640px;
-    transform: translateY(40px);
-    animation: float 5s ease-in-out infinite;
+.ghost {
     display: flex;
+    width: 210px;
+    animation: ghostKey 1s ease-in-out infinite;
+}
+@keyframes ghostKey {
+    0%{
+        transform: translateY(0px) ;
+
+    }
+    50%{
+        transform: translateY(-50px) rotate(15deg);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
 }
 
 .footer-center {
