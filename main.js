@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 86763012553986fc4174c72ffed173d51eaaf22d
 function toggleBackgroundColor() {
     var bodyElement = document.getElementById("body");
     
@@ -18,5 +21,9 @@ function random(){
 
 // Alternar cor a cada 1000 milissegundos (1 segundo)
 setInterval(toggleBackgroundColor, intervalo);
+<<<<<<< HEAD
 //utilizar uma funçao random pra piscar legal
 
+=======
+//utilizar uma funçao random pra piscar legal
+>>>>>>> 86763012553986fc4174c72ffed173d51eaaf22d
