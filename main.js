@@ -1,5 +1,3 @@
-/*
-
 function toggleBackgroundColor() {
     var bodyElement = document.getElementById("body");
     
@@ -20,5 +18,3 @@ function random(){
 // Alternar cor a cada 1000 milissegundos (1 segundo)
 setInterval(toggleBackgroundColor, intervalo);
 //utilizar uma funçao random pra piscar legal
-
-*/
