@@ -56,7 +56,7 @@ p{
 
 .ghost {
     display: flex;
-    width: 210px;
+    width: 300px;
     animation: ghostKey 3s ease-in-out infinite;
 }
 @keyframes ghostKey {
