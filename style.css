@@ -57,14 +57,14 @@ p{
 }
 @keyframes ghostKey {
     0%{
-        transform: translateY(0px) rotate(10deg) ;
+        transform: translateY(0px);
 
     }
     50%{
-        transform: translateY(-50px rotate(0deg)) ;
+        transform: translateY(-50px );
     }
     100%{
-        transform: translateY(0px)  rotate(90deg);
+        transform: translateY(0px);
     }
     
 }
