@@ -11,6 +11,7 @@ function toggleBackgroundColor() {
 function random(){
     return random = Math.random() * 2000 + 3000;
 }
+
 // Alternar cor a cada 1000 milissegundos (1 segundo)
 intervalo = setInterval(toggleBackgroundColor, random);
 //utilizar uma funçao random pra piscar legal
