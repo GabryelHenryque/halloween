@@ -1,3 +1,5 @@
+
+
 function toggleBackgroundColor() {
     var bodyElement = document.getElementById("body");
     
