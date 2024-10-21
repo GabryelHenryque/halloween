@@ -52,18 +52,18 @@ p{
 .ghost {
     display: flex;
     width: 210px;
-    animation: ghostKey 1s ease-in-out infinite;
+    animation: ghostKey 3s ease-in-out infinite;
 }
 @keyframes ghostKey {
     0%{
-        transform: translateY(0px) ;
+        transform: translateY(0px) rotate(10deg) ;
 
     }
     50%{
-        transform: translateY(-50px) rotate(15deg);
+        transform: translateY(-50px rotate(0deg)) ;
     }
     100%{
-        transform: translateY(0px);
+        transform: translateY(0px)  rotate(90deg);
     }
     
 }
